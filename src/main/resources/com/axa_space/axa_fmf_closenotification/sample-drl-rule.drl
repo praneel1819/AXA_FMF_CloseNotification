@@ -1,0 +1,8 @@
+package com.axa_space.axa_fmf_closenotification;
+
+rule "helloworldrule"
+ruleflow-group "helloworldgroup"
+when 
+then
+	System.out.println("Hello World!");
+end
